@@ -1,0 +1,36 @@
+#topbar{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding-top: 2rem;
+}
+
+#user{
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#usermeme{
+    height: 17rem;
+    margin-bottom: 0.2rem;
+    width: 17rem;
+    background-color: rgb(188, 181, 181);
+}
+#tagline{
+    color:white;
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+#uploadbtn{
+    padding: 0.7rem 2rem;
+    font-size: xx-large;
+    margin-top: 1.6rem;
+    color: white;
+}
+#uploadbtn:hover{
+    cursor: pointer;
+}

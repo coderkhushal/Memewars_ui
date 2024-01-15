@@ -1,0 +1,36 @@
+#singleuser{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 45%;
+    height: 30rem;
+}
+#singleuserusermeme{
+    height: 14rem;
+    margin:2rem auto;
+    margin-bottom: 0.2rem;
+    width: 14rem;
+    background-color: rgb(188, 181, 181);
+}
+#singleusertagline{
+    color:white;
+    font-size: x-large;
+}
+#singleuservotingbtn{
+    padding: 0.7rem 2rem;
+    font-size: xx-large;
+    margin-top: 1.6rem;
+    color: white;
+}
+#singleuservotingbtn:hover{
+    cursor: pointer;
+}
+#singleuserpartition{
+    height:30rem;
+    border:2px solid white;
+}
+#partition{
+    border:2px solid white;
+    height: 28rem;
+}

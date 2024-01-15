@@ -1,0 +1,15 @@
+#progressbar{
+    display: flex;
+    border: 2px solid white;
+    width: 50rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+}
+#left{
+    background-color: blue;
+    height: 100%;
+}
+#right{
+    background-color: red;
+    height: 100%;
+}

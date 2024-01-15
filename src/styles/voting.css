@@ -1,0 +1,27 @@
+#header{
+    display: flex;
+    width:95%;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    height: 10rem;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+#topmiddle{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 4rem;
+}
+
+#mainContainer{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    
+}
