@@ -1,4 +1,7 @@
 # Getting Started with Create React App
+![image](https://github.com/coderkhushal/Memewars_ui/assets/137866759/0fef6e05-795d-499d-b27c-42dce8d49143)
+![image](https://github.com/coderkhushal/Memewars_ui/assets/137866759/a22eff2b-6f5f-4aaf-82aa-7f30f3e8839d)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
