@@ -5,7 +5,7 @@ const Progressbar = (props) => {
   return (
     <div id='progressbar'>
       <div id='left' style={{width:`${left}%`}}></div>
-      <div id='right' style={{width:`${left}%`}}></div>
+      <div id='right' style={{width:`${right}%`}}></div>
     </div>
   )
 }

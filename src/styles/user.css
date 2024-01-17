@@ -26,11 +26,29 @@
     margin-bottom: 1rem;
 }
 #uploadbtn{
-    padding: 0.7rem 2rem;
-    font-size: xx-large;
+    padding: 0.7rem 1rem;
+    font-size: x-large;
     margin-top: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color: white;
+    text-decoration: none;
+    border-radius: 2rem;
 }
 #uploadbtn:hover{
     cursor: pointer;
+}
+#scorebar{
+    color: white;
+    position: absolute;   
+    right: 10rem;
+    font-size: xx-large;
+    top: 4rem;
+}
+#uploadForm{
+    color: white;
+    display: flex;
+    flex-direction: column;
 }

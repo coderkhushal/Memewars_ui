@@ -17,8 +17,14 @@ code {
 }
 .primary-h{
   font-size: 4rem;
-
+  color: white;
+  
 }
 .secondary-h{
   font-size: 1.5rem;
+  color: white;
+}
+.heading{
+  text-align: center;
+  padding-top: 3rem;
 }
