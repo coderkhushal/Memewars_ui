@@ -3,6 +3,7 @@ import User from './pages/User';
 import Voting from './pages/Voting';
 import './styles/App.css';
 import JoinRoom from './pages/JoinRoom';
+import Admin from './Components/Admin';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<JoinRoom/>}/>
           <Route path="/:roomid" element={<Voting />} />
           <Route path="user/:number" element={<User />} />
+          <Route path="/admin" element={<Admin />} />
   
       </Routes>
     </BrowserRouter>

@@ -35,3 +35,7 @@
     align-items: center;
     justify-content: center;
 }
+.timer{
+    font-size: x-large;
+    margin-bottom: 10px;
+}

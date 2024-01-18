@@ -1,0 +1,10 @@
+#admincontainer{
+    width: 100%;
+    height:30rem;
+    flex-direction: column;
+    display: flex;
+    gap: 2rem;
+
+    align-items: center;
+    justify-content: center;
+}

@@ -34,3 +34,6 @@
     border:2px solid white;
     height: 28rem;
 }
+.disabledbtn{
+    opacity: 0.5;
+}

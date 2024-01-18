@@ -1,15 +1,10 @@
 import React, { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import "../styles/joinroom.css"
-import { socket } from '../libs/socket'
 
 const JoinRoom = () => {
     const[roomid,setroomid]= useState()
-    const navigation = useNavigate()
-    const handleonclick=()=>{
-        socket.emit("joinroom",roomid)
-        navigation(roomid)
-    }
+    
     
   return (
     <>
@@ -20,8 +15,8 @@ const JoinRoom = () => {
     <div id='roomcontainer'>
         <input id="roominput" value={roomid} placeholder='Enter Room Id' onChange={(e)=>{setroomid(e.target.value)}}/>
         <br />
-        <button className='btn' onClick={handleonclick}>
-            <Link id='joinroombtn' >Join Room </Link>
+        <button className='btn' >
+            <Link to={`/${roomid}`} id='joinroombtn'>Join Room </Link>
         </button>
     </div>
     </>
